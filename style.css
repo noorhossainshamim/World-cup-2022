@@ -40,6 +40,14 @@ header{
     font-size: 3.5rem;
     font-weight: 900;
 }
+.banner-btn{
+    height: 100px;
+    width: 200px;
+    transition: transform 1s linear;
+}
+.banner-btn:hover{
+    transform: scaleX(1.2);
+}
 
 .banner-details a{
     text-decoration: none;
@@ -50,8 +58,7 @@ header{
 }
 
 .banner-details a:hover{
-    background-color: brown;
-    transition: .5s;
+    background-color: rgb(211, 52, 52);
 }
 
 .banner-image{
@@ -281,7 +288,9 @@ hr{
         width:95%;
         margin-top: 10px;
     }
-    
+    .banner-btn{
+        margin: 0 auto;
+    }
     .banner-details{
     text-align: center;
     width: 100%;
