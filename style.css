@@ -295,6 +295,7 @@ hr{
     text-align: center;
     width: 100%;
     padding: 10px;
+    line-height: 1.5;
     }
 
     .banner-details h1{
@@ -405,12 +406,4 @@ hr{
    .link a{
     font-size: 1.2rem;
 }
-
-}    
-
-/* Responsive laptop */
-@media only screen and (min-width:1024px) and (max-width:1370px) {
-    .banner{
-        display: flex;
-    }
-}
+   
